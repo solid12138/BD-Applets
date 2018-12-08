@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*公共重置样式 开始*/
+body { font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; }
+a,body,dd,view,dl,dt,form,h1,h2,h3,h4,h5,h6,i,input,li,ol,p,span,td,textarea,th,ul,img { margin: 0; padding: 0; border:0; }
+body{
+    background-color: #fff;
+}
+a { text-decoration: none; color: #333; -webkit-tap-highlight-color:rgba(0,0,0,0); }
+a:focus { outline: 0; }
+a img { border:none; outline: none; }
+li { list-style: none}
+em,i { font-style: normal}
+/* 左浮动 */
+.left { float:left; }
+/* 右浮动 */
+.right{ float:right; }
+.fl { display: inline; float: left}
+.fr { display: inline; float: right}
+.relative { position: relative; }
+.clearfix:after { display: block; content: ""; clear: both}
+.clearfix { zoom: 1}
+input,select,textarea { font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 12rpx; color: #666; outline: 0; resize: none; padding: 0 8rpx; }
+input[type=week],input[type=number],input[type=email],input[type=url],input[type=search],input[type=tel],input[type=color],input[type=text],input[type=password],input[type=datetime],input[type=date],input[type=month],input[type=time],select,textarea { border: 1rpx solid #ccc; background: #fff}
+/*去除移动端灰色背景*/
+input{ -webkit-tap-highlight-color:rgba(0,0,0,0); }
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
+}
+input{ -webkit-appearance: none; }
+input[type=text],input[type=password] { padding: 0 8rpx; height: 28rpx; line-height: 28rpx; letter-spacing: 1rpx; border-radius: 3rpx; }
+/*公共重置样式 结束*/
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+/*控制元素显隐及行内、块 开始*/
+.dis-block { display: block;}
+.dis-none { display: none;}
+.dis-il-block { display: inline-block; vertical-align: middle; }
+.dis-inline { display: inline-block;}
+.visi-hidden { visibility: hidden;}
+/*控制元素显隐及行内、块 结束*/
+/*控制文本对齐及大小、行高、加粗 开始*/
+.tx-fb { font-weight: bold;}
+.tx-center { text-align: center;}
+.tx-left { text-align: left;}
+.tx-right { text-align: right;}
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+/*控制文本对齐及大小、行高、 结束*/
+body .mr-none{ margin-right: 0rpx; }
+body .ml-none{ margin-left: 0rpx; }
+body .mt-none{ margin-top: 0rpx; }
+body .mb-none{ margin-bottom: 0rpx; }
+.hide{ display: none; }

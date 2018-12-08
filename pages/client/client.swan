@@ -1,0 +1,126 @@
+<view class="pb70">
+    <!-- banner -->
+    <navigator class="banner" url="/pages/casedetail/casedetail" hover-class="none">
+        <!-- 图片 -->
+        <image src="../../images/client/client-banner1.jpg"></image>
+        <view class="banner-text">
+            <view class="line"></view>
+            <view class="h3">英孚教育</view>
+            <view class="p">音乐培训机构</view>
+        </view>
+    </navigator>
+    <!-- 案例列表 -->
+    <view class="case-list">
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色设计师用色大胆，传承彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+        <navigator class="case-item clearfix" url="/pages/casedetail/casedetail" hover-class="none">
+            <view class="case-item-img fl">
+                <image src="../../images/client/case-item1.jpg"></image>
+            </view>
+            <view class="case-item-text fl">
+                <view class="h4">楚之律艺术教育</view>
+                <view class="text-box">
+                    <view class="p">设计摘要：<text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text></view>
+                </view>
+                <view class="h5">类型：教育培训<text>|</text>面积：800平米</view>
+            </view>
+        </navigator>
+    </view>
+    <!-- 查看更多 -->
+    <navigator class="more-btn" url="/pages/quote/quote" open-type="switchTab">查看更多</navigator>
+
+</view>

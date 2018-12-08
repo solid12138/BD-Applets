@@ -1,0 +1,62 @@
+<view class="pb80">
+    <!-- banner -->
+    <view class="banner">
+        <image src="../../images/casedetail/casedetail-banner.jpg"></image>
+        <view class="down-ico"></view>
+    </view>
+    <!-- 内容 -->
+    <view class="detail-box">
+        <view class="h3"><text>乐感</text>教育</view>
+        <view class="h4">少儿音乐培训机构</view>
+        <view class="detail-item pt62">
+            <view class="h5">目标</view>
+            <view class="h6">多功能空间布局规划</view>
+            <view class="p">在材质的选择上要充分发挥材料的质感</view>
+            <view class="p">选用经久耐用的装修材料</view>
+            <view class="p">体现出空间的实用性</view>
+            <view class="detail-img">
+                <image src="../../images/casedetail/detail-img1.png"></image>
+                <view class="item-ico"></view>
+            </view>
+        </view>
+        <view class="detail-item">
+            <view class="h5">情况</view>
+            <view class="h6">两面采光 “L”形空间</view>
+            <view class="p">我们对设计风格很明确</view>
+            <view class="p">就要现代简约，合理的利用空间</view>
+            <view class="p">让我对设计效果非常的期待！</view>
+            <view class="detail-img">
+                <image src="../../images/casedetail/detail-img2.png"></image>
+                <view class="item-ico"></view>
+            </view>
+        </view>
+        <view class="detail-item">
+            <view class="h5">解决方案</view>
+            <view class="h6">整体空间布局</view>
+            <view class="p">音乐培训机构要体现出艺术的氛围</view>
+            <view class="p">木质材料的使用提升了空间的质感</view>
+            <view class="p">同时营造了艺术氛围</view>
+            <view class="detail-img">
+                <image src="../../images/casedetail/detail-img3.png"></image>
+                <view class="item-ico"></view>
+            </view>
+        </view>
+        <view class="detail-item">
+            <view class="h5">成果</view>
+            <view class="h6">合理规划 打造宽敞的教学环境</view>
+            <view class="p">希望通过空间布局</view>
+            <view class="p">在满足教学功能需求的同时制造宽敞的感觉</view>
+            <view class="p">给学生带来轻松的心境和欢愉的心情</view>
+            <view class="detail-img">
+                <image src="../../images/casedetail/detail-img3.png"></image>
+                <view class="item-ico"></view>
+            </view>
+        </view>
+        <view class="detail-btn-box">
+            <view class="h4">一站式整装方案</view>
+            <view class="p">设计 施工 材料 家具 智能设备</view>
+            <view class="p">无缝链接  高落地率</view>
+            <navigator class="detail-btn" url="/pages/quote/quote" open-type="switchTab">立即预约设计师</navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,275 @@
+<view>
+    <!-- banner -->
+    <view class="banner">
+        <image class="banner-img" src="../../images/home/home-banner.jpg"></image>
+    </view>
+    <!-- mouse -->
+    <view class="mouse-box">
+        <image class="mouse-ico" src="../../images/home/mouse-ico.png"></image>
+        <image class="down-ico" src="../../images/home/down-ico.png"></image>
+    </view>
+    <!-- 教育空间 -->
+    <view class="educate">
+        <view class="h3"><text>教育</text>空间装修</view>
+        <view class="h4">始于<text>1999</text>,专注教育空间盈利</view>
+        <!-- 文本 -->
+        <view class="educate-text">
+            <view><text>20年</text>专注教育空间整体装修</view>
+            <view>提供教育设计、施工、软装配饰、营销策划整套服务累</view>
+            <view>计服务超<text>10000+</text>大、中、小型教育项目设计与工程其</view>
+            <view>中包括各类连锁教育品牌和初创教育机构</view>
+            <view>服务范围覆盖超<text>62%</text>省市</view>
+        </view>
+        <!-- 特点 -->
+        <view class="feature">
+            <view class="feature-item">
+                <text class="h4">信得过品牌</text>
+                <text class="h5">装饰行业</text>
+            </view>
+            <view class="feature-item">
+                <text class="h4">信得过品牌</text>
+                <text class="h5">装饰行业</text>
+            </view>
+            <view class="feature-item">
+                <text class="h4">信得过品牌</text>
+                <text class="h5">装饰行业</text>
+            </view>
+        </view>
+    </view>
+    <!-- 合作品牌 -->
+    <view class="cooperate">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>合作品牌</text>
+            <view class="line"></view>
+        </view>
+        <!-- logo-box -->
+        <view class="cooperate-box">
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img1.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img2.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img3.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img4.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img5.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img6.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img7.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img8.jpg" />
+            </view>
+            <view class="cooperate-item">
+                <img class="logo-img" src="../../images/home/logo-img9.jpg" />
+            </view>
+        </view>
+    </view>
+    <!-- 我们的客户 -->
+    <view class="client">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>我们的客户</text>
+            <view class="line"></view>
+        </view>
+        <view class="client-box">
+            <!-- 图片轮播 -->
+            <swiper class="swiper-height" indicator-dots="true" autoplay="true" interval='5000' indicator-active-color="#ffb605" circular="true">
+                <swiper-item>
+                    <image class='client-img' src='../../images/home/carousel1.jpg'></image>
+                </swiper-item>
+                <swiper-item>
+                    <image class='client-img' src='../../images/home/carousel1.jpg'></image>
+                </swiper-item>
+                <swiper-item>
+                    <image class='client-img' src='../../images/home/carousel1.jpg'></image>
+                </swiper-item>
+                <swiper-item>
+                    <image class='client-img' src='../../images/home/carousel1.jpg'></image>
+                </swiper-item>
+            </swiper>
+            <!-- 内容 -->
+            <view class="client-text">
+                <view class="client-text-top">
+                    <text>
+                        <text class="h4">英孚教育</text>
+                        <text>类型：教育培训</text>
+                        <text class="line-ico">|</text>
+                        <text>面积：800平米</text>
+                    </text>
+                </view>
+                <view class="client-text-con">
+                    <text>设计师用色大胆，传承+超越，色彩盛宴凸显青春活力</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 案例列表 -->
+    <view class="case-list">
+        <navigator class="case-item" url="/pages/casedetail/casedetail" hover-class="none">
+            <image src="../../images/home/case-item1.jpg"></image>
+            <view class="h4">楚之律艺术教育</view>
+            <view class="p">
+                <text>中小学机构</text>
+                <text class="line-ico">|</text>
+                <text>400平方米</text>
+            </view>
+        </navigator>
+        <navigator class="case-item" url="/pages/casedetail/casedetail" hover-class="none">
+            <image src="../../images/home/case-item2.jpg"></image>
+            <view class="h4">金贝斯教育</view>
+            <view class="p">
+                <text>中小学机构</text>
+                <text class="line-ico">|</text>
+                <text>400平方米</text>
+            </view>
+        </navigator>
+        <navigator class="case-item" url="/pages/casedetail/casedetail" hover-class="none">
+            <image src="../../images/home/case-item3.jpg"></image>
+            <view class="h4">天道教育</view>
+            <view class="p">
+                <text>聚力优学</text>
+                <text class="line-ico">|</text>
+                <text>465平方米</text>
+            </view>
+        </navigator>
+        <navigator class="case-item" url="/pages/casedetail/casedetail" hover-class="none">
+            <image src="../../images/home/case-item4.jpg"></image>
+            <view class="h4">神墨教育</view>
+            <view class="p">
+                <text>中小学机构</text>
+                <text class="line-ico">|</text>
+                <text>408平方米</text>
+            </view>
+        </navigator>
+        <navigator class="more-btn" url="/pages/client/client" open-type="switchTab">查看更多</navigator>
+    </view>
+    <!-- 我要装修 -->
+    <view class="decoration">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>我要装修</text>
+            <view class="line"></view>
+        </view>
+        <!-- 表单 -->
+        <view class="decoration-box">
+            <form bindsubmit="formSubmit">
+                <view class="decoration-item clearfix">
+                    <text class="fl">面积：</text>
+                    <input type="number" name="companyName" class="fl" placeholder="请输入项目面积" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">姓名：</text>
+                    <input type="text" name="name" class="fl" placeholder="请输入您的姓名" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">电话：</text>
+                    <input type="number" name="phone" placeholder="请输入您的联系方式" class="fl" />
+                </view>
+                <button class="submit-btn" hover-class="none" formType="submit" type="primary">立即预约设计师</button>
+                <view class="tip-text">温馨提示: 您的信息将被严格保密，请放心填写</view>
+            </form>
+        </view>
+    </view>
+    <!-- 一站式整装 -->
+    <view class="wholesale">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>一站式整装方案</text>
+            <view class="line"></view>
+        </view>
+        <view class="wholesale-box">
+            <image src="../../images/home/wholesale.png"></image>
+        </view>
+    </view>
+    <!-- 只做良心工程 -->
+    <view class="project">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>只做良心工程</text>
+            <view class="line"></view>
+        </view>
+        <!-- 内容 -->
+        <view class="project-box">
+            <view class="project-item">
+                <image src="../../images/home/project-item1.jpg"></image>
+                <view class="project-text">
+                    <view class="h4">环保材料</view>
+                    <view class="p">严选各档次品牌环保材料</view>
+                    <view class="p">绿色安全</view>
+                </view>
+            </view>
+            <view class="project-item">
+                <image src="../../images/home/project-item2.jpg"></image>
+                <view class="project-text">
+                    <view class="h4">安全工艺</view>
+                    <view class="p">从细节做起</view>
+                    <view class="p">提高安全系数</view>
+                </view>
+            </view>
+            <view class="project-item">
+                <image src="../../images/home/project-item3.jpg"></image>
+                <view class="project-text">
+                    <view class="h4">消防报备</view>
+                    <view class="p">专业人员代办</view>
+                    <view class="p">至少节省5个工作日</view>
+                </view>
+            </view>
+            <view class="project-item">
+                <image src="../../images/home/project-item4.jpg"></image>
+                <view class="project-text">
+                    <view class="h4">甲醛治理</view>
+                    <view class="p">六道工序除甲醉等有害气体</view>
+                    <view class="p">更彻底的去除空气污染</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 公司规模 -->
+    <view class="scope">
+        <!-- 公用title -->
+        <view class="con-title">
+            <text>公司规模</text>
+            <view class="line"></view>
+        </view>
+        <!-- 内容 -->
+        <view class="scope-box">
+            <view class="scope-item1">
+                <image src="../../images/home/scope-img1.jpg"></image>
+            </view>
+            <view class="scope-item2">
+                <image src="../../images/home/scope-img2.jpg"></image>
+            </view>
+        </view>
+        <!-- 表单 -->
+        <view class="decoration-box">
+            <form bindsubmit="formSubmit">
+                <view class="decoration-item clearfix">
+                    <text class="fl">面积：</text>
+                    <input type="number" name="companyName" class="fl" placeholder="请输入项目面积" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">姓名：</text>
+                    <input type="text" name="name" class="fl" placeholder="请输入您的姓名" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">电话：</text>
+                    <input type="text" name="number" class="fl" placeholder="请输入您的联系方式" />
+                </view>
+                <button class="submit-btn" hover-class="none" formType="submit" type="primary">立即预约设计师</button>
+                <view class="tip-text">温馨提示: 您的信息将被严格保密，请放心填写</view>
+            </form>
+        </view>
+    </view>
+
+
+</view>

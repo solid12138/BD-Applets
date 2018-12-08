@@ -1,0 +1,33 @@
+<view>
+    <!-- banner -->
+    <view class="banner">
+        <image src="../../images/quote/quote-banner.jpg"></image>
+    </view>
+    <!-- 表单部分 -->
+    <view class="input-box">
+        <!-- 顶部 -->
+        <view class="title-box">
+            <view class="h4">10月份全国已有<text>2103人</text>获取报价<view class="left-ico"></view><view class="right-ico"></view></view>
+            <view class="h3">为您提供最优的<text>解决方案</text></view>
+        </view>
+        <!-- 表单 -->
+        <view class="decoration-box">
+            <form bindsubmit="formSubmit">
+                <view class="decoration-item clearfix">
+                    <text class="fl">面积：</text>
+                    <input type="number" name="companyName" class="fl" placeholder="请输入项目面积" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">姓名：</text>
+                    <input type="text" name="name" class="fl" placeholder="请输入您的姓名" />
+                </view>
+                <view class="decoration-item clearfix">
+                    <text class="fl">电话：</text>
+                    <input type="number" name="phone" class="fl" placeholder="请输入您的联系方式" />
+                </view>
+                <button class="submit-btn" hover-class="none" formType="submit" type="primary">立即预约设计师</button>
+                <view class="tip-text">温馨提示: 您的信息将被严格保密，请放心填写</view>
+            </form>
+        </view>
+    </view>
+</view>
